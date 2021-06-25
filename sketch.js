@@ -116,7 +116,7 @@ function draw() {
       reset();
     }
   }
-  
+  text("HighScore: "+ localStorage["HighestScore"], 100,50);
   
   drawSprites();
 }
